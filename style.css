@@ -375,7 +375,8 @@ body::-webkit-scrollbar{
     .productSelection img{
         margin:2rem 1rem;;
         width:200px;
-        border-radius: 50%;
+        height:200px;
+        border-radius: 25%;
         border:1px solid gray;
     }
 
