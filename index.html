@@ -4,19 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="barbershop project for website" content="html, css, javascript">
+    <meta name="Ivo Serra" content="barbershop project">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
     <title>Barber_shop</title>
 </head>
 <body>
-
-   
-        <!-- <section class="hero">
-            <img name ="slide" src="" alt="" width="50">
-        </section> -->
-   
-
-
 
     <header>   
         <nav class="dropdown">
@@ -24,11 +18,12 @@
                 <i class="fas fa-anchor"></i>
             </button>
             <ul class="dropdown-content">
-             <a href="#home">Home</a>
-             <a href="#about">About</a>
-             <a href="#team">Team</a>
-             <a href="#products">services</a>
-             <a href="#contact">Contact</a>
+             <a href="#home">home</a>
+             <a href="#about">about</a>
+             <a href="#barbers">barbers</a>
+             <a href="#services">services</a>
+             <a href="#products">products</a>
+             <a href="#contact">contact</a>
             </ul>
         </nav>
         <div>
@@ -39,31 +34,36 @@
     
     <main>
 
-        <section class="rightContainer">
+        <section class="rightContainer" id="home">
             <section class="hero">
                 <img name ="slide" src="" alt="" width="50">
             </section>
         </section>
 
-   
         <section class="leftContainer">
             <section class="brand">
-                <img src="./Barbershop/newLogo/anchor.png" alt="">
-                <p>Empower<br> through<br> hair<br>diversity</p>
+                <p>Empower<br>through<br>hair</p>
             </section>
 
-        <section class="about">
-
-            <h3>welcome to Amsterdam barber shop</h3>
+            <section  class="about"id="about">
+            <h3>Amsterdam barber shop</h3>
+            <section class="text-holder">
+                <h6>Welcome to our Barbershop</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, dolore.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maxime soluta tenetur dicta praesentium dolorum laudantium deleniti natus omnis, assumenda qui tempora quam distinctio magnam ipsam commodi est sit necessitatibus?</p>
+            </section>
+                 <section class="space">
+                 <img src="./Barbershop/space/chair.jpg" alt="">       
+                 <img src="./Barbershop/space/space1.jpg" alt="">
+                 </section>
+            </section>
  
-         <section class="space">
-           <img src="./Barbershop/space/chair.jpg" alt="">       
-           <img src="./Barbershop/space/space1.jpg" alt="">
-         </section>
-        </section>
- 
-         <section class="team">
+            <section class="team"id="barbers">
              <h3>our barbers</h3>
+             <section class="text-holder">
+                <h6>We have te best barbers and stylists in town</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum similique modi quibusdam asperiores deserunt ipsa placeat magnam officia ab.</p>
+            </section>
              <section class="barbers">
                  <section class="worker">
                     <section class="imgHolder">
@@ -72,7 +72,7 @@
                   
                      <article>
                          <h4>Ben</h4>
-                         <p>From Atlanta, USA.<br>Ben loves Soul food. His also a yoga teacher.</p>
+                         <p>From Atlanta USA.<br>Ben loves Soul food. His also a yoga teacher.</p>
                      </article>
                      <button>Book</button>
                  </section>
@@ -80,15 +80,13 @@
                  <section class="worker">
                      <section class="imgHolder">
                         <img src="./Barbershop/barbers/wassim.jpg" alt="">
-
-                     </section>
-                    
+                     </section>              
                      <article>
                          <h4>Wassim</h4>
-                         <p>From Berlin.Germany.<br>Wassim loves to travel.<br> His a painter</p>
+                         <p>From Berlin<br>Wassim loves to travel.<br> His a painter</p>
                      </article>
                      <button>Book</button>
-                 </section>
+                     </section>
                  <section class="worker">
                     <section class="imgHolder">
                         <img src="./Barbershop/barbers/pavel.jpg" alt="">
@@ -101,7 +99,7 @@
                  </section>
                  <section class="worker">
                     <section class="imgHolder">
-                        <img src="./Barbershop/barbers/emiliano.jpg" alt="">
+                        <img src="./Barbershop/newLogo/logo5.jpg" alt="">
                     </section>
                      <article>
                          <h4>Giovanni</h4>
@@ -115,7 +113,7 @@
                     </section>
                      <article>
                          <h4>Jefferson</h4>
-                         <p>From Paris, France.<br> Pavel loves to swimm.<br> He plays guitar in rock band.</p>
+                         <p>From Paris, France.<br> Pavel loves to swimm. He plays guitar in rock band.</p>
                      </article>
                      <button>Book</button>
                  </section>
@@ -130,46 +128,112 @@
                      <button>Book</button>
                  </section>
              </section>
-         </section>
+            </section>
  
- 
-         <section class="services">
-             <section class="services-images">
+            <section class="services"id="services">
+            <h3>services</h3>
+            <section class="text-holder">
+                <h6>Our prices have vat included</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat!</p>
+            </section>
+             <section class="services-info">
+                 <section class="servicesImageHolder">
+                    <img src="./Barbershop/hairdresser/space2.jpg" alt="">
+                    <div class="twinImages">
+                       <img src="./Barbershop/hairdresser/wallpaperflare.com_wallpaper-4.jpg" alt="">
+                       <img src="./Barbershop/hairdresser/wallpaperflare.com_wallpaper-7.jpg" alt="">
+                    </div>
+                 </section>
+                 <article>
+                    <i class="fas fa-anchor"></i>
+                     <div class="text">
+                     <p>The Cut</p>
+                     <p>Barber</p>
+                     <p>Neck Shave</p>
+                     <p>Beard Trim</p>
+                     <p>Highlight</p>
+                     <p>Senior Cut</p>
+                     <p>kids Cut</p>
+                     </div>
+                     <div class="prices">
+                        <p> 20 euros</p>
+                        <p> 35 euros</p>
+                        <p> 25 euros</p>
+                        <p> 20 euros</p>
+                        <p> 20 euros</p>
+                        <p> 15 euros</p>
+                        <p> 10 euros</p>   
+                     </div>
+                 </article>
             
              </section>
  
  
-         </section>
-        
-         
-         <section class="products">
-             <h3>our products</h3>
-            
+            </section>
+              
+            <section class="products" id="products">
+             <h3>products</h3>
+             <section class="text-holder">
+                <h6>All plant-based products available in our shop</h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia eius praesentium dolorem aliquam voluptatem, fuga deleniti sit aliquid quibusdam dolore in repellendus. Doloribus voluptatem, eos aspernatur soluta cumque provident quidem.</p>
+            </section>
              <section class="productSelection">
                 
-                     <div class="imageHolder">
+                     <div class="productImageHolder">
                          <img src="./Barbershop/_unfold/product0.jpg" alt="">
                      </div>
-                     <div class="imageHolder">
+                     <div class="productImageHolder">
                          <img src="./Barbershop/_unfold/product1.jpg" alt="">
                      </div>            
                  
-                     <div class="imageHolder">
+                     <div class="productImageHolder">
                          <img src="./Barbershop/_unfold/product2.jpg" alt="">
                      </div>            
                 
-                     <div class="imageHolder">
+                     <div class="productImageHolder">
                          <img src="./Barbershop/_unfold/product3.jpg" alt="">
-                     </div>            
-                  </section>
-         </section>
- 
-      
+                     </div>
+                     <div class="productImageHolder">
+                        <img src="./Barbershop/_unfold/product5.jpg" alt="" height="200px";>
+                    </div>
+                    <div class="productImageHolder">
+                        <img src="./Barbershop/_unfold/product6.jpg" alt="">
+                    </div>                
+            </section>
+            </section>
+
+            <section class="contact"id="contact">
+             <h3>Contact</h3>
+             <article class="contactHolder">
+                <div class="address">
+                    <img src="./Barbershop/newLogo/anchor.png" alt="">
+                    <address>
+                    Barber shop Amsterdam<br><br>
+                    August.str 6<br>
+                    Berlin Germany<br>
+                    tel: 030 45678209<br><br>
+                    Monday - Saturday<br>
+                    Opening hours 9h - 20h
+                    <br>
+                    </address>
+                 </div>
+                 <a href="tel:03045678209"><i class="fas fa-phone-alt"></i></a> 
+             </article>
+   
+            </section>
         </section>
-        
-        
 
     </main>
+
+    <footer>
+        <p>follow us</p>
+        <section class="socialMedia">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+        </section>
+        
+    </footer>
     
 
     <script>
@@ -179,11 +243,17 @@
         images [0] = './Barbershop/models/blackAndWhite1.jpg';
         images [1] = './Barbershop/models/blackAndWhite2.jpg';
         images [2] = './Barbershop/models/blackAndWhite3.jpg';
-        images [3] = './Barbershop/models/blackAndWhite4.jpg';
-        images [4] = './Barbershop/models/blackAndWhite5.jpg';
-        images [5] = './Barbershop/models/blackAndWhite6.jpg';
-        images [6] = './Barbershop/models/blackAndWhite7.jpg';
+        images [3] = './Barbershop/models/blackAndWhite9.jpg';
+        images [4] = './Barbershop/models/blackAndWhite6.jpg';
+        images [5] = './Barbershop/models/blackAndWhite11.jpg';
+        images [6] = './Barbershop/models/blackAndWhite10.jpg';
         images [7] = './Barbershop/models/blackAndWhite8.jpg';
+        images [8] = './Barbershop/models/blackAndWhite13.jpg';
+        images [9] = './Barbershop/models/blackAndWhite7.jpg';
+        images [10] = './Barbershop/models/blackAndWhite5.jpg';
+        images [11] = './Barbershop/models/blackAndWhite12.jpg';
+        
+       
         // images [3] = './Barbershop/models/blackAndWhite4.jpg';
 
         function changeImg(){
