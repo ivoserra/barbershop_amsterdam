@@ -104,7 +104,7 @@ body::-webkit-scrollbar{
         left:-0.5rem;
         display:none;
         list-style-type: none;
-        background-color:#ffffff;
+        background-color:#ffffff91;
         padding-left:1rem;
         animation:menu 0.5s ease-in-out;
     }
@@ -130,11 +130,10 @@ body::-webkit-scrollbar{
         text-decoration: none;
         font-size: 4rem;
         font-weight: bold;
-        background-color:#ffffff;
+        background-color:rgba(255, 255, 255, 0.541);
         width:100vw;
-        height:100;
-        padding-left:1rem;
-        padding:0.5rem 0rem;        
+        height:100%;
+        padding:0rem 1rem;        
         
     }
 
@@ -589,6 +588,7 @@ body::-webkit-scrollbar{
         font-size: 4rem;
         width:100vw;
         padding-left:1rem;
+      
     }
 
 
@@ -626,10 +626,15 @@ body::-webkit-scrollbar{
         cursor:pointer;
     }
 
+    .dropdown-content{
+        top:4.5rem;
+    }
+
     .dropdown-content a{
         font-size: 4.7vw;
         width:48vw;
         padding-left:1rem;
+        
     }
 
     main{
